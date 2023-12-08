@@ -1,0 +1,88 @@
+body {
+    background-color: #14213d;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+  }
+  
+  main {
+    background-color: #e5e5e5;
+    width: 70vw;
+    margin: 4rem auto;
+    padding: 2rem 2rem;
+    min-width: 400px;
+    max-width: 640px;
+    box-shadow: 0 0 40px;
+    border-radius: 10px;
+  }
+  
+  h1, p {
+    text-align: center;
+    padding: 0 2rem;
+    margin: 0;
+  }
+  
+  #title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  #description {
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+  form {
+    margin: 0 2rem;
+    padding: 0;
+  }
+  
+  fieldset {
+    margin-bottom: 2rem;
+    padding: 0;
+    border: none;
+  }
+  
+  input, textarea {
+    width: 100%;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    width: unset;
+    display: inline;
+  }
+  
+  .text {
+    margin: 2rem 0;
+  }
+  
+  .text:last-of-type {
+    margin: 0;
+  }
+  
+  div input, textarea, select {
+    margin-top: 6px;
+    border: none;
+    font-size: 0.8em;
+  }
+  
+  textarea {
+    font-family: Tahoma, sans-serif;
+    color: grey;
+  }
+  
+  input[type="text"], input[type="number"], select {
+    height: 2rem;
+  }
+  
+  input[type="submit"] {
+    width: 80%;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 auto;
+    display: block;
+    background-color: #fca311;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
