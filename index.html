@@ -16,30 +16,32 @@
 <body>
     <header id="header">
         <div id="company-logo">
-            <img id="header-img" width="50" height="50" src="https://img.icons8.com/ios/50/f1-race-car-side-view.png"
-                alt="logo" />
-            <p class="logo">SimRaceX</p>
+            <a id="logo-link" href="#">
+                <img id="header-img" width="50" height="50"
+                    src="https://img.icons8.com/ios/50/f1-race-car-side-view.png" alt="logo" />
+                <p class="logo">SimRaceX</p>
+            </a>
         </div>
         <nav id="nav-bar">
-            <ul class="nav-links">
-                <li><a class="nav-link" href="">Link 1</a></li>
-                <li><a class="nav-link" href="">Link 2</a></li>
-                <li><a class="nav-link" href="">Link 3</a></li>
+            <ul id="nav-links">
+                <li><a class="nav-link" href="#hero">Video</a></li>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="hero">
-            <h1 class="hero-title">Are you ready to be fully immersed?</h1>
-            <p class="hero-text">Experience real racing in the comfort of your own home!</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8HdVfdAr53o?si=t8y9plY1MqG7pCkq"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
-        </section>
         <div class="content-wrapper">
+            <section id="hero">
+                <h1 class="hero-title">Are you ready to be fully immersed?</h1>
+                <p class="hero-text">Experience real racing in the comfort of your own home!</p>
+                <iframe src="https://www.youtube.com/embed/8HdVfdAr53o?si=t8y9plY1MqG7pCkq" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </section>
             <section id="features">
                 <div class="feature">
                     <img id="icon1" class="feature-icon"
@@ -90,7 +92,7 @@
                 <div class="product">
                     <h3 class="product-name">SimRaceX Pro</h3>
                     <ul class="product-info">
-                        <li>Upgraded seat w/ lumbar support</li>
+                        <li>Seat w/ lumbar support</li>
                         <li>Height adjustable</li>
                         <li>Built-in cable management</li>
                     </ul>
@@ -108,16 +110,18 @@
                     <p class="price">$900</p>
                 </div>
             </section>
+        </div>
+        <footer>
+            <ul id="footer-links">
+                <li><a class="footer-link" href="#">Privacy</a></li>
+                <li><a class="footer-link" href="#">Terms</a></li>
+                <li><a class="footer-link" href="#">Contact</a></li>
+            </ul>
+            <p class="copyright">Copyright 2023, SimRaceX</p>
+        </footer>
     </main>
 
-    <footer>
-        <ul class="footer-links">
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <p class="copyright">Copyright 2023, Apex Pro</p>
-    </footer>
+
 </body>
 
 </html>
