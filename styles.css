@@ -53,21 +53,24 @@ fieldset {
   margin-bottom: 0;
 }
 
-#required-info input {
+input,
+select {
   display: block;
   height: 2rem;
-  width: 60%;
+  width: 50%;
   font-size: 1rem;
+  margin-top: 1rem;
 }
 
-select {
-  height: 2rem;
-  font-size: 1rem;
+legend {
+  padding: 0;
+  margin-bottom: 0.5rem;
 }
 
 input[type="radio"],
 input[type="checkbox"] {
   width: unset;
+  height: unset;
   display: inline;
 }
 
@@ -85,11 +88,13 @@ select {
 
 textarea {
   font-family: Tahoma, sans-serif;
+  width: 100%;
   color: grey;
 }
 
 input[type="submit"] {
-  width: 80%;
+  width: 70%;
+  height: 4rem;
   padding: 1rem;
   font-size: 20px;
   font-weight: 500;
