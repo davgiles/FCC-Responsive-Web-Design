@@ -1,80 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Form</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <main>
     <h1 id="title">David's Survey Form</h1>
     <p id="description">Filling out this form provides me with feedback on how to improve my coding skills!</p>
     <form id="survey-form">
-      <fieldset>
-        <div class="text">
-          <label for="name" id="name-label">Name: <input id="name" type="text" required placeholder="Enter your name"/></label>
+      <fieldset id="required-info">
+        <div>
+          <label for="name" id="name-label">Name: <input id="name" type="text" required
+              placeholder="Enter your name" /></label>
         </div>
-        <div class="text">
-          <label for="email" id="email-label">Email: <input id="email" type="email" required placeholder="Enter your email"/></label>
+        <div>
+          <label for="email" id="email-label">Email: <input id="email" type="email" required
+              placeholder="Enter your email" /></label>
         </div>
-        <div class="text">
-          <label for="number" id="number-label">Age: <input id="number" type="number" placeholder="Enter your age" min="4" max="120"/></label>
+        <div>
+          <label for="number" id="number-label">Age: <input id="number" type="number" placeholder="Enter your age"
+              min="4" max="120" /></label>
         </div>
       </fieldset>
       <fieldset>
-        <label for="dropdown" id="dropdown-label">Please selection the option that best describes your current role: 
-        <select name="job-status" id="dropdown">
-          <option value="">-- please select one --</option>
-          <option value="full-time">Full-time Employee</option>
-          <option value="part-time">Part-time Employee</option>
-          <option value="student">Student</option>
-          <option value="unemployed">Unemployed</option>
-          <option value="na">Prefer not to say</option>
-        </select>
+        <label for="dropdown" id="dropdown-label">Please selection the option that best describes your current role:
+          <select name="job-status" id="dropdown">
+            <option value="">-- please select one --</option>
+            <option value="full-time">Full-time Employee</option>
+            <option value="part-time">Part-time Employee</option>
+            <option value="student">Student</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="na">Prefer not to say</option>
+          </select>
       </fieldset>
-      <fieldset>          
+      <fieldset>
         <legend>Rate my coding skills on a scale from 1-5:</legend>
         <div>
-          <label for="1"><input type="radio" value="1" name="skill-level" checked/> 1</label>
+          <label for="1"><input type="radio" value="1" name="skill-level" checked /> 1</label>
         </div>
         <div>
-          <label for="2"><input type="radio" value="2" name="skill-level"/> 2</label>
+          <label for="2"><input type="radio" value="2" name="skill-level" /> 2</label>
         </div>
         <div>
-          <label for="3"><input type="radio" value="3" name="skill-level"/> 3</label>
+          <label for="3"><input type="radio" value="3" name="skill-level" /> 3</label>
         </div>
         <div>
-          <label for="4"><input type="radio" value="4" name="skill-level"/> 4</label>
+          <label for="4"><input type="radio" value="4" name="skill-level" /> 4</label>
         </div>
         <div>
-          <label for="5"><input type="radio" value="5" name="skill-level"/> 5</label>
+          <label for="5"><input type="radio" value="5" name="skill-level" /> 5</label>
         </div>
       </fieldset>
       <fieldset>
         <legend>What aspects of my code could be improved?</legend>
         <div>
-          <label for="answer-html"><input type="checkbox" value="answer-html" name="code-feedback"/> HTML</label>
+          <label for="answer-html"><input type="checkbox" value="answer-html" name="code-feedback" /> HTML</label>
         </div>
         <div>
-          <label for="answer-css"><input type="checkbox" value="answer-css" name="code-feedback"/> CSS</label>
+          <label for="answer-css"><input type="checkbox" value="answer-css" name="code-feedback" /> CSS</label>
         </div>
         <div>
-          <label for="answer-format"><input type="checkbox" value="answer-format" name="code-feedback"/> Format</label>
+          <label for="answer-format"><input type="checkbox" value="answer-format" name="code-feedback" /> Format</label>
         </div>
         <div>
-          <label for="answer-readability"><input type="checkbox" value="answer-readability" name="code-feedback"/> Readability</label>
+          <label for="answer-readability"><input type="checkbox" value="answer-readability" name="code-feedback" />
+            Readability</label>
         </div>
         <div>
-          <label for="answer-design"><input type="checkbox" value="answer-design" name="code-feedback"/> Design</label>
+          <label for="answer-design"><input type="checkbox" value="answer-design" name="code-feedback" /> Design</label>
         </div>
       </fieldset>
       <fieldset>
         <label for="comments">Please provide additional comments or feedback on how I can improve: </label>
         <textarea id="comments" name="comments" rows="5" cols="30">You could improve on...</textarea>
       </fieldset>
-      <input id="submit" type="submit" value="Submit Feedback"/>
+      <input id="submit" type="submit" value="Submit Feedback" />
     </form>
   </main>
 </body>
+
 </html>
